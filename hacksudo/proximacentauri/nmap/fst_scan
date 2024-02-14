@@ -1,0 +1,21 @@
+# Nmap 7.94SVN scan initiated Wed Jan 31 05:33:12 2024 as: nmap -sS -sC -sV -oN nmap/fst_scan 192.168.1.38
+Nmap scan report for ProximaCentauri.station (192.168.1.38)
+Host is up (0.0048s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+22/tcp filtered ssh
+80/tcp open     http    Apache httpd 2.4.38 ((Debian))
+|_http-generator: pluck 4.7.13
+| http-robots.txt: 2 disallowed entries 
+|_/data/ /docs/
+|_http-server-header: Apache/2.4.38 (Debian)
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+| http-title: HackSudo Proxima Centauri  - Image result for proxima centauri...
+|_Requested resource was http://proximacentauri.station/?file=hacksudo-proxima-centauri
+MAC Address: 08:00:27:28:71:1C (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jan 31 05:33:18 2024 -- 1 IP address (1 host up) scanned in 6.93 seconds

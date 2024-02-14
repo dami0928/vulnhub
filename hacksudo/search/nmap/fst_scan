@@ -1,0 +1,18 @@
+# Nmap 7.94SVN scan initiated Tue Jan 30 19:53:36 2024 as: nmap -sS -sC -sV -oN nmap/fst_scan 192.168.1.31
+Nmap scan report for HacksudoSearch.station (192.168.1.31)
+Host is up (0.0060s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 7b:44:7c:da:fb:e5:e6:1d:76:33:eb:fa:c0:dd:77:44 (RSA)
+|   256 13:2d:45:07:32:83:13:eb:4e:a1:20:f4:06:ba:26:8a (ECDSA)
+|_  256 21:a1:86:47:07:1b:df:b2:70:7e:d9:30:e3:29:c2:e7 (ED25519)
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-title: HacksudoSearch
+|_http-server-header: Apache/2.4.38 (Debian)
+MAC Address: 08:00:27:65:DF:AC (Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jan 30 19:53:50 2024 -- 1 IP address (1 host up) scanned in 13.58 seconds

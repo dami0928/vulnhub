@@ -1,0 +1,19 @@
+# Nmap 7.94SVN scan initiated Tue Jan 30 22:06:29 2024 as: nmap -sS -sC -sV -oN nmap/allport_scan -p - 192.168.1.33
+Nmap scan report for HacksudoThor.station (192.168.1.33)
+Host is up (0.0052s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+21/tcp filtered ftp
+22/tcp open     ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 37:36:60:3e:26:ae:23:3f:e1:8b:5d:18:e7:a7:c7:ce (RSA)
+|   256 34:9a:57:60:7d:66:70:d5:b5:ff:47:96:e0:36:23:75 (ECDSA)
+|_  256 ae:7d:ee:fe:1d:bc:99:4d:54:45:3d:61:16:f8:6c:87 (ED25519)
+80/tcp open     http    Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+MAC Address: 08:00:27:F2:22:E0 (Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jan 30 22:06:43 2024 -- 1 IP address (1 host up) scanned in 14.05 seconds

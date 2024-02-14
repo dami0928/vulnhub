@@ -1,0 +1,18 @@
+# Nmap 7.94SVN scan initiated Mon Feb  5 01:37:57 2024 as: nmap -sS -sV -sC -oN nmap/allport -p - 192.168.1.53
+Nmap scan report for 192.168.1.53
+Host is up (0.015s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 fc:13:6a:6b:9b:e3:68:18:24:a1:de:2b:28:1e:61:5f (RSA)
+|   256 c1:34:94:94:71:71:9c:6e:83:a6:be:c9:2a:1b:3f:d7 (ECDSA)
+|_  256 9a:cc:ce:ce:b8:2f:08:bb:2b:99:b6:25:3f:ec:44:61 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+MAC Address: 08:00:27:B4:7C:9E (Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Feb  5 01:45:25 2024 -- 1 IP address (1 host up) scanned in 447.70 seconds
