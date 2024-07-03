@@ -6,7 +6,7 @@
 
 `Flag1: cybersploit{youtube.com/c/cybersploit}`
 
-`SSH user: itsskv
+`SSH user: itsskv\n
 SSH passwd: cybersploit{youtube.com/c/cybersploit}`
 
 # flag2
