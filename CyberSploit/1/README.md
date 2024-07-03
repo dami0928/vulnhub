@@ -4,23 +4,22 @@
 
 # flag1
 
-''' bash
+' bash
 Flag1: cybersploit{youtube.com/c/cybersploit} 
-'''
 
-''' ash
+
+' ash
 SSH user: itsskv
 SSH passwd: cybersploit{youtube.com/c/cybersploit}
-'''
+
 
 # flag2
 
-''' bash
+' bash
 flag2: cybersploit{https:t.me/cybersploit1}
-'''
+
 
 # flag3
 
-''' bash
+' bash
 flag3: cybersploit{Z3X21CW42C4 many many congratulations !}
-'''
